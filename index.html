@@ -3,9 +3,45 @@
   <head>
     <meta charset="utf-8" />
     <title>Rock paper scissors</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Rock paper scissors</h1>
+    <div class="herobox">
+      <h2>Select your move</h2>
+      <div id="user-selection">
+        <button class="card-user" value="rock" id="rock">🪨</button>
+        <button class="card-user" value="paper" id="paper">📃</button>
+        <button class="card-user" value="scissors" id="scissors">✂️</button>
+      </div>
+    </div>
+    <div class="hide">
+      <div class="pc-herobox">
+        <h2>Computer choice</h2>
+        <button class="card" id="computer-id" value="computer-id"></button>
+      </div>
+      <div class="result-section">
+        <div class="score-box">
+          <p>Your score:</p>
+          <p id="user-score" class="score-text"></p>
+        </div>
+        <div class="score-info">
+          <p id="final-score"></p>
+          <p></p>
+          <button class="replay-btn hide-btn">Replay</button>
+        </div>
+        <div class="score-box">
+          <p>Pc score:</p>
+          <p id="pc-score" class="score-text"></p>
+        </div>
+      </div>
+    </div>
     <script src="index.js"></script>
   </body>
 </html>

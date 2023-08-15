@@ -1,0 +1,141 @@
+html {
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    width: 60%;
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+.herobox, .pc-herobox {
+    width: 80%;
+    margin: 5% auto;
+    background-color: #dbeaff;
+    border-radius: 10px;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+    padding: 5%;
+}
+
+.herobox h2, .pc-herobox h2 {
+    width: 80%;
+    margin: 0 auto;
+    font-weight: 700;
+    font-size: 1.5em;
+    margin-bottom: 5%;
+}
+
+#user-selection {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    max-width: 80%;
+    justify-content: space-between;
+    gap: 10%;
+}
+
+.card, .card-user {
+    background-color: #262626;
+    width: 130px;
+    height: 100px;
+    padding: 5%;
+    flex: 1 1 0;
+    border-radius: 10px;
+    border: transparent;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    gap: 15%;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+    font-size: 34px;
+}
+
+.card-user {
+    font-size: 34px;
+}
+
+.card-user p {
+    font-size: 0.5em;
+}
+
+.pc-herobox .card {
+    margin: 0 auto;
+}
+
+.choice-btn {
+    border: transparent;
+    background-color: transparent;
+    font-size: 34px;
+}
+
+.card p, .card-user p {
+    font-size: 1005;
+    color: #fff;
+    font-weight: 900;
+}
+
+.result-section {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10%;
+}
+
+.score-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.score-box p {
+    font-weight: 700;
+}
+
+.score-text {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: #262626;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    color: #fff;
+    margin-top: 10%;
+}
+
+.score-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+}
+
+.score-info p:first-child {
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.replay-btn {
+    border: transparent;
+    border-radius: 10px;
+    background-color: #262626;
+    color: #fff;
+    padding: 5% 10%;
+    font-weight: 700;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.hide {
+    display: none;
+}
+
+.hide-btn {
+    display: none;
+}
